@@ -1,0 +1,67 @@
+body {
+    font-family: 'Bree Serif', serif;
+    background-color: rgb(151, 167, 167);
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color:blanchedalmond;
+    text-shadow: 0 0 4px #000;
+}
+#container {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    grid-column-start: 1; 
+    grid-column-end: 5;
+    border: 3px solid blanchedalmond;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 50px;
+    font-size: 36px;
+    background-color: rgb(223, 91, 68);
+}
+
+button {
+    font-family: 'Bree Serif', serif;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 20%;
+    border: 2px solid black;
+    background-color: rgb(154, 216, 216);
+    transition-duration: 0.2s;
+}
+button:hover {
+    background-color: rgb(25, 25, 26);
+    color: white;
+}
+.operator {
+    background-color: rgb(241, 128, 76);
+}
+.clear {
+    background-color: cadetblue;
+}
+.sign {
+    background-color: cadetblue;
+}
+.percent {
+    background-color: cadetblue;
+}
+.equals {
+    background-color: rgb(241, 128, 76);
+}
+#zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 10px;
+}
+
